@@ -25,6 +25,8 @@ allure {
     }
 }
 
+compileTestJava.options.encoding = "UTF-8"
+
 dependencies {
     testImplementation(
             "io.rest-assured:rest-assured:$restAssuredVersion",

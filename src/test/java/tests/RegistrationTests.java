@@ -37,6 +37,7 @@ public class RegistrationTests extends TestBase {
         });
     }
 
+    @DisplayName("Проверка создания пользователя с пустым email")
     @Test
     void checkRegistrationEmptyEmailTest() {
         RegistrationRequest registrationData = new RegistrationRequest();
@@ -59,6 +60,7 @@ public class RegistrationTests extends TestBase {
         });
     }
 
+    @DisplayName("Проверка создания пользователя с пустым password")
     @Test
     void checkRegistrationEmptyPasswordTest() {
         RegistrationRequest registrationData = new RegistrationRequest();
@@ -81,6 +83,7 @@ public class RegistrationTests extends TestBase {
         });
     }
 
+    @DisplayName("Проверка создания пользователя с пустым email и password")
     @Test
     void checkRegistrationEmptyEmailAndPasswordTest() {
         RegistrationRequest registrationData = new RegistrationRequest();
